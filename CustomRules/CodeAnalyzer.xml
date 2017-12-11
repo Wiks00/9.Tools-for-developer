@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="My Own Custom Rule">
+  <Description> Custom rules added to analyzer. </Description>
+  <Rules>
+    <Rule Name="PublicEntityClass" CheckId="HE1111">
+      <Context>All entity-classes should be public</Context>
+      <Description>Custom rules</Description>
+    </Rule>
+    <Rule Name="EntityClassAttribute" CheckId="HE1112">
+      <Context>All entity-classes should be marked with {0} attribute</Context>
+      <Description>Custom rules</Description>
+    </Rule>
+    <Rule Name="EntityClassMandatoryProperties" CheckId="HE1113">
+      <Context>All entity-classes should countains two public properies: {0} and {1}</Context>
+      <Description>Custom rules</Description>
+    </Rule>
+    <Rule Name="ControllerClassNaming" CheckId="HE1114">
+      <Context>Class that inherits {0} type name should start with "Controller"</Context>
+      <Description>Custom rules</Description>
+    </Rule>
+    <Rule Name="ControllerClassAttribute" CheckId="HE1115">
+      <Context>Controller should be marked with {0} attribute</Context>
+      <Description>Custom rules</Description>
+    </Rule>
+  </Rules>
+</SourceAnalyzer>
