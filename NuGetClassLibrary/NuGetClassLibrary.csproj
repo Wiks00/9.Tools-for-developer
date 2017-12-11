@@ -51,6 +51,7 @@
   <ItemGroup>
     <Content Include="app.config.install.xdt" />
     <Content Include="app.config.uninstall.xdt" />
+    <Content Include="App.config.transform" />
     <None Include="Install.ps1" />
     <None Include="NuGetClassLibrary.nuspec">
       <SubType>Designer</SubType>
